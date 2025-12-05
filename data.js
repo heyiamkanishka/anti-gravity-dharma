@@ -22,18 +22,71 @@ export const religions = {
         content: `
           <div class="content-block">
             <h3>The Life of the Buddha</h3>
-            <p><a href="https://en.wikipedia.org/wiki/The_Buddha" target="_blank">Siddhartha Gautama</a> was born in Lumbini (modern-day Nepal) around the 5th century BCE into the royal Shakya clan. Despite living a sheltered life of luxury, he was moved by the suffering he saw outside the palace walls—old age, sickness, and death. At 29, he renounced his princely life (<a href="https://en.wikipedia.org/wiki/Great_Renunciation" target="_blank">The Great Renunciation</a>) to seek the truth.</p>
-            <p>After years of asceticism, he discovered the Middle Way. At 35, meditating under the Bodhi tree in Bodh Gaya, he attained Enlightenment and became the Buddha ("The Awakened One"). He spent the next 45 years teaching the Dhamma until his <a href="https://en.wikipedia.org/wiki/Parinirvana" target="_blank">Parinirvana</a> at Kushinagar at age 80.</p>
+            <p><a href="https://en.wikipedia.org/wiki/The_Buddha" target="_blank" style="color:inherit">Siddhartha Gautama</a>, who would later be known as the Buddha, was born in <a href="https://en.wikipedia.org/wiki/Lumbini" target="_blank" style="color:inherit">Lumbini</a> (present-day Nepal) around 563 BCE into the royal Shakya clan. His father, King Suddhodana, ruled the small kingdom of Kapilavastu, and his mother, Queen Maya, died seven days after giving birth. A prophecy declared that the child would either become a universal monarch or a fully awakened teacher who would save the world from suffering. Determined to see his son follow the royal path, the king surrounded Siddhartha with every conceivable luxury and pleasure, shielding him completely from any sight of pain, aging, or death.</p>
+            
+            <p>At sixteen, Siddhartha married his cousin Yasodhara. Together they lived in three magnificent palaces designed for the different seasons, filled with music, beautiful attendants, lotus ponds, and every sensual delight. For twenty-nine years he knew nothing of the world's harsher realities. Then, one day, he asked his charioteer Channa to take him beyond the palace grounds.</p>
+            
+            <p>On four successive trips he encountered what are now called the <a href="https://en.wikipedia.org/wiki/Four_sights" target="_blank" style="color:inherit">Four Sights</a>. First he saw an old man, bent over, toothless, gray-haired, trembling with age. Siddhartha asked, "Will this happen to me?" Channa replied, "It happens to everyone, my lord." On the second trip he saw a sick man lying by the road, wracked with pain and fever. Siddhartha learned that disease can strike anyone, regardless of wealth or status. On the third trip he saw a corpse being carried to the cremation ground, surrounded by weeping relatives. For the first time he understood that death comes to every living being without exception. On the fourth trip he saw a wandering ascetic. The man wore simple robes, carried a begging bowl, and had a serene, radiant expression despite having no possessions. Siddhartha asked, "What is this man seeking?" Channa answered, "He has left home to find freedom from old age, sickness, and death."</p>
+
+            <p>These four encounters shattered the prince's world. He realized that all his palaces, pleasures, and power were meaningless in the face of inevitable suffering. One night, after looking one last time at his sleeping wife and newborn son Rahula, he left the palace forever. This is known as the <a href="https://en.wikipedia.org/wiki/Great_Renunciation" target="_blank" style="color:inherit">Great Renunciation</a>. At the age of twenty-nine, wearing simple clothes and with his hair cut, he became a wandering seeker of truth.</p>
+            
+            <p>For six years Siddhartha practiced extreme asceticism under various teachers. He learned deep meditation and mastered the highest states of concentration, but found they did not lead to ultimate liberation. He then joined five ascetics and practiced such severe austerities that he nearly starved to death. At one point he lived on a single grain of rice a day. His body became skeletal, yet enlightenment still did not come. He finally realized that torturing the body was as useless as indulging it. There must be a Middle Path between luxury and austerity.</p>
+            
+            <p>He accepted a bowl of milk rice from a village girl named Sujata, bathed in the Nairanjana River, and sat beneath a fig tree (later called the <a href="https://en.wikipedia.org/wiki/Bodhi_Tree" target="_blank" style="color:inherit">Bodhi Tree</a>) in <a href="https://en.wikipedia.org/wiki/Bodh_Gaya" target="_blank" style="color:inherit">Bodh Gaya</a>, vowing not to rise until he had attained complete awakening.</p>
+
+            <p>That night he faced his final trial. <a href="https://en.wikipedia.org/wiki/Mara_(demon)" target="_blank" style="color:inherit">Mara</a>, the force of delusion and temptation, attacked him with armies of demons, storms, and beautiful daughters offering sensual pleasure. Siddhartha remained unmoved. He touched the earth with his right hand, calling the earth itself to witness his years of virtue. The earth roared in affirmation, and Mara fled defeated.</p>
+
+            <p>Through the three watches of the night, Siddhartha penetrated the true nature of reality. He saw all his past lives, understood the workings of karma, and perceived the arising and ceasing of suffering in all beings. At dawn, at the age of thirty-five, he attained complete, perfect enlightenment. He became the Buddha – the Awakened One.</p>
+
+            <p>For seven weeks he remained in the area of the Bodhi Tree, experiencing the bliss of liberation. At first he hesitated to teach, thinking the truth he had realized was too profound for others to understand. But the god Brahma appeared and begged him to teach out of compassion for suffering beings. The Buddha agreed.</p>
+
+            <p>He walked to the Deer Park in Sarnath near Varanasi and found his former five ascetic companions. There he gave his first sermon, setting in motion the Wheel of Dharma. He taught the <a href="https://en.wikipedia.org/wiki/Four_Noble_Truths" target="_blank" style="color:inherit">Four Noble Truths</a>:</p>
+            
+            <ul>
+                <li>Life is characterized by suffering (dukkha)</li>
+                <li>Suffering has a cause: craving and ignorance</li>
+                <li>Suffering can end</li>
+                <li>There is a path to the end of suffering: the <a href="https://en.wikipedia.org/wiki/Noble_Eightfold_Path" target="_blank" style="color:inherit">Noble Eightfold Path</a></li>
+            </ul>
+
+            <p>The five ascetics became his first disciples and the first members of the <a href="https://en.wikipedia.org/wiki/Sangha" target="_blank" style="color:inherit">Sangha</a> (monastic community). Soon sixty enlightened disciples were sent out to teach, and the Buddha's dispensation began to spread.</p>
+
+            <p>For the next forty-five years, the Buddha walked the roads of northern India teaching everyone – kings and outcastes, merchants and ascetics, men and women – without discrimination. He established communities of monks and nuns, taught householders how to live ethically and happily, and gave profound discourses on mindfulness, meditation, karma, rebirth, and the path to nirvana.</p>
+
+            <p>He returned several times to his home kingdom, where his father, stepmother, wife Yasodhara, and son Rahula all joined the order. His cousin Ananda became his devoted attendant for the last twenty-five years of his life.</p>
+
+            <p>At the age of eighty, in the town of <a href="https://en.wikipedia.org/wiki/Kushinagar" target="_blank" style="color:inherit">Kushinagar</a>, the Buddha announced that he would soon pass away. He ate a meal offered by a blacksmith named Cunda (traditionally described as either pork or mushrooms – the texts are ambiguous), became ill, but insisted that Cunda was not to be blamed.</p>
+
+            <p>Lying on his right side between two sal trees, surrounded by hundreds of disciples, he gave his final teaching: "All conditioned things are subject to decay. Strive on with diligence." Then, entering deeper and deeper meditative absorptions, he passed into final nirvana – complete liberation beyond birth and death.</p>
+
+            <p>The Buddha's last words remain one of the most powerful summaries of spiritual life ever spoken. His teaching – the Dhamma – and the community he founded continue to guide millions of people 2,600 years later, offering a practical, compassionate path to awakening that is as relevant today as it was in ancient India.</p>
           </div>
           <div class="content-block">
             <h3>Ashoka and the Spread of Buddhism</h3>
-            <p><a href="https://en.wikipedia.org/wiki/Ashoka" target="_blank">Emperor Ashoka the Great</a> (3rd century BCE) played a pivotal role. After the bloody Kalinga War, he embraced Buddhism and promoted non-violence (Ahimsa). He sent missionaries across Asia, including his son Mahinda to Sri Lanka, spreading the Dhamma far beyond India's borders.</p>
+            <p><strong><a href="https://en.wikipedia.org/wiki/Ashoka" target="_blank">Emperor Ashoka the Great</a></strong> (reigned approximately 268–232 BCE) was the third king of the Maurya Empire and remains one of the most remarkable rulers in world history. Through his dramatic transformation from ruthless conqueror to compassionate promoter of peace, he turned Buddhism from a small Indian teaching into a major world religion that reached Sri Lanka, Southeast Asia, Central Asia, and even the Mediterranean.</p>
+            
+            <p>Ashoka was the grandson of Chandragupta Maurya, the founder of the empire, and the son of Bindusara. Ancient sources describe the young Ashoka as fierce, ambitious, and highly capable. Legend says he killed several of his brothers to secure the throne and earned the nickname "Chandashoka" – Ashoka the Cruel.</p>
+
+            <p>In the eighth year of his reign, Ashoka launched a massive invasion of Kalinga (modern Odisha) on India’s east coast. The war was brutally successful. According to his own Rock Edict XIII, more than 100,000 soldiers and civilians were killed, 150,000 were taken captive, and many more died from wounds, starvation, and disease. When Ashoka walked across the battlefield and saw the scale of suffering – rivers of blood, burning villages, orphaned children, and grieving families – he was overcome with remorse. He later wrote: <em>"When an independent country is conquered, the slaughter, death, and deportation of its people that ensue are extremely grievous to His Majesty and weigh heavily on his mind."</em></p>
+
+            <p>This profound crisis of conscience changed him forever. He encountered a Buddhist monk named Upagupta whose calm presence and teaching touched him deeply. Ashoka embraced Buddhism, gave up violent conquest, and devoted the rest of his life to spreading the Dhamma.</p>
+            
+            <figure style="margin: 2rem 0; text-align: center;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Buddhist_Expansion.svg" alt="Map of Buddhist Expansion" style="max-width: 100%; border-radius: 8px; border: 1px solid rgba(0,0,0,0.1);">
+                <figcaption style="color: var(--color-text-muted); font-size: 0.9rem; margin-top: 0.5rem;">Map of the spread of Buddhism under Ashoka and beyond.</figcaption>
+            </figure>
+
+            <p>Importantly, Ashoka did not make Buddhism the state religion or force conversion on anyone. Instead he created a universal ethical policy he called "Dhamma" that was acceptable to people of all faiths. Its core principles were: <strong>Ahimsa</strong> (non-violence), respect for elders, kindness to all beings, generosity, and religious tolerance.</p>
+
+            <p>Most crucially, he organized the greatest missionary campaign in ancient history. In the words of his own edicts, he sent emissaries "for the welfare and happiness of the many" to Sri Lanka, Myanmar, Thailand, Cambodia, Syria, Egypt, Greece, Macedonia, and North Africa.</p>
+
+            <p>The best-known mission went to Sri Lanka. Ashoka dispatched his own son Mahinda and daughter Sanghamitta to the island. Mahinda converted King Devanampiya Tissa, and Sanghamitta brought a cutting from the original Bodhi Tree. That tree still grows in Anuradhapura and is the oldest documented tree in the world.</p>
           </div>
           <div class="content-block">
              <h3><a href="https://en.wikipedia.org/wiki/Buddhist_cosmology" target="_blank">Buddhist Cosmology</a> & Time</h3>
              <p><strong>Buddhist Year:</strong> The Buddhist calendar starts from the Buddha's Parinirvana. For example, 2024 CE is approximately 2568 BE (Buddhist Era).</p>
-             <p><strong><a href="https://en.wikipedia.org/wiki/List_of_the_named_Buddhas" target="_blank">28 Buddhas</a>:</strong> Theravada tradition acknowledges 28 past Buddhas, with Siddhartha Gautama being the most recent and Metteyya (Maitreya) predicted as the future Buddha.</p>
-             <p><strong><a href="https://en.wikipedia.org/wiki/Buddhist_cosmology#Vertical_cosmology" target="_blank">31 Planes of Existence</a>:</strong> Buddhism describes a complex cosmology of 31 planes where beings are reborn, ranging from hell realms to heavenly Brahma realms, divided into Formless, Form, and Sensual worlds.</p>
+             <p><strong><a href="28_buddhas.html" target="_blank" style="color: var(--color-religion); font-weight: bold;">28 Buddhas</a>:</strong> Theravada tradition acknowledges 28 past Buddhas, with Siddhartha Gautama being the most recent and Metteyya (Maitreya) predicted as the future Buddha. <a href="28_buddhas.html" target="_blank">Read their story here.</a></p>
+             <p><strong><a href="31_planes.html" target="_blank" style="color: var(--color-religion); font-weight: bold;">31 Planes of Existence</a>:</strong> Buddhism describes a complex cosmology of 31 planes where beings are reborn, ranging from hell realms to heavenly Brahma realms. <a href="31_planes.html" target="_blank">Explore the cosmology here.</a></p>
           </div>
           <div class="content-block">
             <h3>Major Schools</h3>
