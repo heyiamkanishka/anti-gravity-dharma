@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     heroTitle.textContent = religion.hero.title;
-    heroIntro.textContent = religion.hero.intro;
+    heroIntro.innerHTML = religion.hero.intro;
 
     // Render Stats
     heroStats.innerHTML = religion.hero.stats.map(stat => `
