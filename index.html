@@ -1,100 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dhamma - The Path of Truth</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="app">
-      <header class="main-header">
-        <div class="logo-container">
-          <h1 class="site-title">Dhamma</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhamma - The Path of Truth</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <header class="main-header">
+      <div class="logo-container">
+        <h1 class="site-title">Dhamma</h1>
+      </div>
+      <nav class="main-nav">
+        <div class="nav-left">
+          <div class="icon-group">
+            <button class="icon-btn" data-religion="buddhism" title="Buddhism">
+              <i class="fa-solid fa-dharmachakra"></i>
+            </button>
+            <button class="icon-btn" data-religion="hinduism" title="Hinduism">
+              <i class="fa-solid fa-om"></i>
+            </button>
+            <button class="icon-btn" data-religion="jainism" title="Jainism">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </button>
+            <button class="icon-btn" data-religion="sikhism" title="Sikhism">
+              <i class="fa-solid fa-khanda"></i>
+            </button>
+          </div>
         </div>
-        <nav class="main-nav">
-          <div class="nav-left">
-            <div class="icon-group">
-              <button class="icon-btn" data-religion="buddhism" title="Buddhism">
-                <i class="fa-solid fa-dharmachakra"></i>
-              </button>
-              <button class="icon-btn" data-religion="hinduism" title="Hinduism">
-                <i class="fa-solid fa-om"></i>
-              </button>
-              <button class="icon-btn" data-religion="jainism" title="Jainism">
-                <i class="fa-solid fa-hand-holding-heart"></i>
-              </button>
-              <button class="icon-btn" data-religion="sikhism" title="Sikhism">
-                <i class="fa-solid fa-khanda"></i>
-              </button>
-            </div>
+        <div class="nav-center">
+          <a href="#history" class="nav-link">History</a>
+          <a href="#teachings" class="nav-link">Teachings</a>
+          <a href="#resources" class="nav-link">Resources</a>
+          <a href="#language" class="nav-link">Language</a>
+        </div>
+        <div class="nav-right">
+          <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input" />
+            <button class="search-btn"><i class="fa-solid fa-search"></i></button>
           </div>
-          <div class="nav-center">
-            <a href="#history" class="nav-link">History</a>
-            <a href="#teachings" class="nav-link">Teachings</a>
-            <a href="#resources" class="nav-link">Resources</a>
-            <a href="#language" class="nav-link">Language</a>
-          </div>
-          <div class="nav-right">
-            <div class="search-container">
-              <input type="text" placeholder="Search..." class="search-input" />
-              <button class="search-btn"><i class="fa-solid fa-search"></i></button>
-            </div>
-          </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
 
-      <main>
-        <section class="hero-section">
-          <div class="hero-content">
-            <div class="hero-image-container">
-              <img src="./hero-image.png" alt="Peaceful meditation scene" class="hero-image" />
+    <main>
+      <section class="hero-section" id="hero-section">
+        <div class="hero-content">
+          <div class="hero-image-container">
+            <img src="./hero-image.png" alt="Hero Image" class="hero-image" id="hero-img" />
+          </div>
+          <div class="hero-text">
+            <h2 id="hero-title">What is Dhamma?</h2>
+            <p id="hero-intro">
+              Dhamma (Pali) or Dharma (Sanskrit) is a key concept with multiple meanings in Indian religions...
+            </p>
+            <div class="hero-stats" id="hero-stats">
+              <!-- Dynamic Stats will go here -->
             </div>
-            <div class="hero-text">
-              <h2>What is Dhamma?</h2>
-              <p>
-                Dhamma (Pali) or Dharma (Sanskrit) is a key concept with multiple meanings in Indian religions, such as Hinduism, Buddhism, Jainism, and Sikhism. It refers to the cosmic law and order, as well as the duties, rights, laws, conduct, virtues and "right way of living".
-              </p>
-              <p>
-                It is the eternal and inherent nature of reality, regarded as a cosmic law underlying right behavior and social order.
-              </p>
-            </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="religions-section">
-          <div class="religion-card" id="buddhism">
-            <div class="card-icon"><i class="fa-solid fa-dharmachakra"></i></div>
-            <h3>Buddhism</h3>
-            <p>The path of practice and spiritual development leading to Insight into the true nature of reality.</p>
+      <section class="content-display-section">
+        <div class="tabs-container">
+          <!-- Tabs are already in the nav, but we might want a secondary local tab system or just use the nav to drive this view. 
+                  The prompt says "once the icon color selected history, teachings and resources must have that respective religons color when hovered above and selected."
+                  This implies the main nav links (History, Teachings, etc) drive the view below. 
+                  So this section just needs to be a container for the content. -->
+          <div id="dynamic-content" class="dynamic-content">
+            <!-- Content will be injected here -->
           </div>
-          <div class="religion-card" id="hinduism">
-            <div class="card-icon"><i class="fa-solid fa-om"></i></div>
-            <h3>Hinduism</h3>
-            <p>An Indian religion and dharma, or way of life, widely practiced in the Indian subcontinent and parts of Southeast Asia.</p>
-          </div>
-          <div class="religion-card" id="jainism">
-            <div class="card-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
-            <h3>Jainism</h3>
-            <p>A nontheistic religion founded in India in the 6th century BC by the Jina Vardhamana Mahavira.</p>
-          </div>
-          <div class="religion-card" id="sikhism">
-            <div class="card-icon"><i class="fa-solid fa-khanda"></i></div>
-            <h3>Sikhism</h3>
-            <p>A monotheistic religion founded in Punjab in the 15th century by Guru Nanak.</p>
-          </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
 
-      <footer class="main-footer">
-        <p>&copy; 2024 Dhamma. All rights reserved.</p>
-      </footer>
-    </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+    <footer class="main-footer">
+      <p>&copy; 2024 Dhamma. All rights reserved.</p>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>
